@@ -53,6 +53,12 @@ export default function Home() {
                 >
                   Dashboard
                 </Link>
+                <Link
+                  href="/insights"
+                  className="px-4 py-2 rounded-full bg-[#131316] text-white text-sm font-semibold"
+                >
+                  Insights
+                </Link>
               </SignedIn>
               <SignedOut>
                 <SignInButton>
